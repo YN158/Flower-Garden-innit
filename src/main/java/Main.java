@@ -16,6 +16,8 @@ public class Main
 
     static GraphicsHandler GH = new GraphicsHandler(ScreenWidth, ScreenHeight);
 
+    Rectangle bl = new Rectangle(10, 10, 50, 50);
+
     public static void main(String[] args)
     {
         AppStart();
