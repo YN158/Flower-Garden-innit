@@ -18,7 +18,6 @@ public class GraphicsHandler extends JFrame implements MouseListener
     boolean clicked = false;
 
 
-
     public GraphicsHandler(int ScreenWidth, int ScreenHeight)
     {
         SW = ScreenWidth;
@@ -28,22 +27,20 @@ public class GraphicsHandler extends JFrame implements MouseListener
     public void Setup()
     {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         frame.setSize(SW, SH);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         frame.addMouseListener(this);
+
+
+
+
     }
 
     public void Paint(Graphics g)
     {
-        int RecW = SW/2;
-        int RecH = 40;
         Graphics2D g2D = (Graphics2D) g;
-
-        g2D.setStroke(new BasicStroke(5));
-
-        g2D.setColor(Color.black);
-        g2D.drawLine((SW/2), 0, (SW/2), SH);
     }
 
     public void Repaint(Graphics g)

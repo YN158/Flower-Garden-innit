@@ -1,4 +1,4 @@
-public class Assistant
+public class Assistant extends Account
 {
 
 }

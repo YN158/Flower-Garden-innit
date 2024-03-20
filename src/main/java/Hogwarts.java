@@ -1,23 +1,27 @@
+import java.util.ArrayList;
+
 public class Hogwarts
 {
 
-    // TODO: Define Attributes
+    ArrayList<Student> Students = new ArrayList<Student>();
+    ArrayList<Professor> Professors = new ArrayList<Professor>();
+    ArrayList<Assistant> Assistants = new ArrayList<Assistant>();
+    ArrayList<Courses> AllCourses = new ArrayList<Courses>();
 
 
 
-    // TODO: Define Functionalities
     public void viewAllTeachers()
     {
-        //TODO
+
     }
 
     public void viewAllStudents()
     {
-        //TODO
+
     }
 
     public void viewAllCourses()
     {
-        //TODO
+
     }
 }

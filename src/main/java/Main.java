@@ -16,7 +16,8 @@ public class Main
 
     static GraphicsHandler GH = new GraphicsHandler(ScreenWidth, ScreenHeight);
 
-    Rectangle bl = new Rectangle(10, 10, 50, 50);
+    JButton Button1 = new JButton("balam");
+
 
     public static void main(String[] args)
     {
@@ -27,6 +28,7 @@ public class Main
     public static void AppStart()
     {
         GH.Setup();
+
         Running = true;
     }
 
@@ -42,10 +44,12 @@ public class Main
 
     public static void Input()
     {
-        /*PointerInfo a = MouseInfo.getPointerInfo();
+        /*
+        PointerInfo a = MouseInfo.getPointerInfo();
         Point b = a.getLocation();
         GH.MouseX = (int) b.getX();
-        GH.MouseY = (int) b.getY();*/
+        GH.MouseY = (int) b.getY();
+        */
     }
 
     public static void LogicUpdate()
